@@ -1,4 +1,4 @@
-import StudentItem from "./item";
+import Item from "./item";
 import "../style/lista.css";
 
 export default function lista({ alunos, removerAluno }) {
@@ -8,7 +8,7 @@ export default function lista({ alunos, removerAluno }) {
         <p>Nenhum aluno cadastrado</p>
       ) : (
         alunos.map((aluno, indice) => (
-          <ItemAluno
+          <Item
             key={indice}
             aluno={aluno}
             indice={indice}
