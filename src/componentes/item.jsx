@@ -1,6 +1,6 @@
 import "../style/item.css";
 
-export default function item({ aluno, indice, removerAluno }) {
+export default function Item({ aluno, indice, removerAluno }) {
   return (
     <div className="item">
       <span>
