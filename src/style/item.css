@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.item button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
